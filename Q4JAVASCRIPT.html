@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Java Script Q4</title>
+<script>
+function search1()
+{
+	var string1=document.mydata.string.value;
+	var substring1=document.mydata.substring.value;
+	var value=(string1.search(substring1));
+	if(value>=0)
+		{
+		document.write(substring1);
+		}
+}
+
+</script>
+</head>
+<body>
+<form name="mydata">
+<input type="text" name="string" placeholder="enter your string">
+<input type="text" name="substring" placeholder="substring">
+<input type="button" value="search" onclick="search1()">
+</form>
+</body>
+</html>

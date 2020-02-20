@@ -31,7 +31,6 @@ class UserMainCode23
 			if(x%4!=0)
 			{
 				count++;
-			
 			}
 		}
 		return count;
